@@ -1,4 +1,4 @@
-kind: Namesapce
+kind: Namespace
 apiVersion: v1
 metadata:
   name: nginx
