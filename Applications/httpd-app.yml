@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: httpd
   destination:
-    server:
+    server: https://kubernetes.default.svc
     namespace: default
   syncPolicy:
     automated:
