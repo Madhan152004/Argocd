@@ -1,7 +1,8 @@
 kind: Application
 apiVersion: argoproj.io/v1alpha1
 metadata:
-  name: nginx
+  name: httpd
+  namespace: argocd
 spec:
   project: default
   source:
